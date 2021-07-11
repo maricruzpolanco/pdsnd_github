@@ -22,7 +22,7 @@ def get_filters():
     month = " "
     day = " "
 
-    # get user input for city (chicago, new york city, washington) using while loop to handle invalid answers.
+    # get user input for city (chicago, new york city, washington) using while loop to handle invalid answers
     while True:
             city = input("\nWould you like to see data for Chicago, New York City or Washington?\n").lower()
             if city not in CITY_DATA:
