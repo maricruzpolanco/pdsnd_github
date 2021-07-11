@@ -7,7 +7,7 @@ May 25, 2021
 Explore U.S. Bikeshare Data
 
 ### Description
-In this project, I used Python 3.9 (time, pandas, NumPy, calendar libraries) to build an interactive environment where users can choose bikeshare data for Chicago, New York City, and/or Washington and filter the dataset to analyze and compute descriptive statistics for the chosen data as part of Udacity's Programming for Data Science with Python Nanodegree.
+In this project, I used **Python 3.9** (**time**, **pandas**, **NumPy**, **calendar** libraries) to build an interactive environment where users can choose bikeshare data for Chicago, New York City, and/or Washington and filter the dataset to analyze and compute descriptive statistics for the chosen data as part of Udacity's Programming for Data Science with Python Nanodegree.
 
 ### Files used
 - chicago.csv
