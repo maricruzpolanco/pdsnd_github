@@ -15,7 +15,7 @@ In this project, I used **Python 3.9** (**time**, **pandas**, **NumPy**, **calen
 - washington.csv
 
 ### Credits
-Websites and blogs referenced:
+## Websites and blogs referenced:
 
 - Asking the user for input until they give a valid response
 https://stackoverflow.com/questions/23294658/asking-the-user-for-input-until-they-give-a-valid-response
@@ -41,7 +41,7 @@ https://datatofish.com/floats-to-integers-dataframe/
 - Python SyntaxError: continue not properly in loop Solution
 https://careerkarma.com/blog/python-syntaxerror-continue-not-properly-in-loop/?
 
-Knowledge.Udacity.com Answers Referenced
+## Knowledge.Udacity.com Answers Referenced
 
 - UnboundLocalError
 https://knowledge.udacity.com/questions/136672
