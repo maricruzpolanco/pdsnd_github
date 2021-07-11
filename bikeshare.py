@@ -104,18 +104,18 @@ def raw_data(df):
     """Displays first 5 lines of raw data upon user request"."""
 
     # user input to see if they want to see 5 lines of raw data
-    raw_data_ask = input("\nWould you like to see 5 lines of raw data? Please type 'y' or 'n'.\n").lower()
+    view_raw_data = input("\nWould you like to see 5 lines of raw data? Please type 'y' or 'n'.\n").lower()
     start_loc = 0
-    while raw_data_ask == 'y':
+    while view_raw_data == 'y':
         print(df.iloc[start_loc:start_loc + 5])
         start_loc += 5
-        view_more_data = input("\nWould you like to view five more lines of raw data? Please type 'y' or 'n'.\n").lower()
+        view_raw_data = input("\nWould you like to view five more lines of raw data? Please type 'y' or 'n'.\n").lower()
         if view_more_data == 'n':
             break
     else:
-        if raw_data_ask not in ('y', 'n'):
+        if view_raw_data not in ('y', 'n'):
             print("\nOops. That's not a valid answer. Please type 'y' or 'n'.\n")
-            raw_data_ask = input("\nWould you like to see 5 lines of raw data? Please type 'y' or 'n'.\n").lower()
+            view_raw_data = input("\nWould you like to see 5 lines of raw data? Please type 'y' or 'n'.\n").lower()
 
 print('-'*40)
 
@@ -208,9 +208,9 @@ def user_stats(df):
 
     # Display earliest, most recent, and most common year of birth
     if 'Birth Year' in df.columns:
-        earliest_birth_year = df['Birth Year'].min().astype(int)
-        most_recent_birth_year = df['Birth Year'].max().astype(int)
-        most_common_birth_year = df['Birth Year'].mode()[0].astype(int)
+        earliest_birth_year = int(df['Birth Year'].min().astype)
+        most_recent_birth_year = int(df['Birth Year'].max().astype)
+        most_common_birth_year = int(df['Birth Year'].mode()[0].astype)
         print("\nEarliest Birth Year: ", earliest_birth_year)
         print("Most Recent Birth Year:" , most_recent_birth_year)
         print("Most Common Birth Year: ", most_common_birth_year)
